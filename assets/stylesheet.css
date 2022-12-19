@@ -11,17 +11,10 @@ span {
 	vertical-align: baseline;
 }
 
-#header {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-#nav {
-    flex-direction: row;
-    justify-content: center;
-}
-
 #bannerImg img {
     width: 100%;
+}
+
+#one, #two, #three, #four {
+    padding-top: 100px;
 }
