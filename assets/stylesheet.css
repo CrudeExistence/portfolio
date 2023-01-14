@@ -1,6 +1,44 @@
 
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 
+/* body {
+    background-color: darkgray;
+} */
+
+#top {
+    margin-top: -400px;
+}
+
+#floatLinks {
+    z-index: 5;
+    position: fixed;
+    /* left: -99px; */
+    left: 0px;
+    top: 50%;
+    text-align: right;
+    /* width: 180px;
+    height: 90px;
+    border-radius: 50px;
+    background-color: black;
+    color: white; */
+}
+
+.icons {
+    list-style-type: none;
+    background-color: black;
+    padding: 10px;
+    
+}
+
+/* .floatTop {
+    background-color: gray;
+}
+.floatMid {
+    background-color: gray;
+}
+.floatBot {
+    background-color: gray;
+} */
 
 span {
     margin: 0;
@@ -11,10 +49,19 @@ span {
 	vertical-align: baseline;
 }
 
+span img {
+    height: 600px;
+    width: 600px !important;
+}
+
 #bannerImg img {
     width: 100%;
 }
 
 #one, #two, #three, #four {
     padding-top: 100px;
+}
+
+#oneInfo {
+    margin-top: -500px;
 }
