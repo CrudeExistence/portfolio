@@ -85,7 +85,7 @@ span img {
 
 @media screen and (max-width: 1250px) {
     #top {
-        padding-top: 300px;
+        padding-top: 200px;
     }
 }
 
@@ -93,5 +93,11 @@ span img {
     .navbar-nav {
         float: none;
         display: block;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #top {
+        padding-top: 300px;
     }
 }
