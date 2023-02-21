@@ -23,15 +23,28 @@
     color: white; */
 }
 
+#floatLinks a:hover {
+    margin-left: 50px;
+}
+
 .icons {
     list-style-type: none;
     background-color: black;
-    padding: 10px;
-    
+    padding: 20px;
+    border-radius: 10%;
+    margin-left: -10px;
 }
 
-/* .floatTop {
+.nav-item a:hover {
+    background-color: #04AA6D;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+/*
+.floatTop a:hover {
     background-color: gray;
+    margin-left: 50px;
 }
 .floatMid {
     background-color: gray;
@@ -47,16 +60,20 @@ span {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+    box-shadow: 0 1px 20px 0 rgba(0,0,0,.1);
 }
 
 span img {
     height: 600px;
     width: 600px !important;
+    /* box-shadow: 0 1px 20px 0 rgba(0,0,0,.1); */
 }
 
 #bannerImg img {
     width: 100%;
 }
+
+
 
 #one, #two, #three, #four {
     padding-top: 100px;
@@ -64,4 +81,17 @@ span img {
 
 #oneInfo {
     margin-top: -500px;
+}
+
+@media screen and (max-width: 1250px) {
+    #top {
+        padding-top: 300px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar-nav {
+        float: none;
+        display: block;
+    }
 }
