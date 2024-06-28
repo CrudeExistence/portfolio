@@ -22,4 +22,3 @@ window.addEventListener('scroll', () => {
 });
 
 
-//comment to verify connection
