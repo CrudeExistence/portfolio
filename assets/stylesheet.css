@@ -86,10 +86,12 @@ span img {
 
 #one, #two, #three, #four {
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 #five {
     padding-top: 300px;
+    padding-bottom: 300px;
 }
 
 #oneInfo {
